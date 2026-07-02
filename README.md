@@ -61,16 +61,28 @@ AI-Recruiter-Hackathon/
 ## Installation
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Swetagupta05/AI-Recruiter-Hackathon.git
 
 cd AI-Recruiter-Hackathon
 
 python -m venv venv
 
+# Windows
 venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
 
 pip install -r requirements.txt
 ```
+
+## Dataset
+
+The official `candidates.jsonl` dataset is **not included** in this repository because it exceeds GitHub's 100 MB file size limit.
+
+Please download the dataset provided by the hackathon organizers and place it in the `data/` directory.
+
+The FAISS index is generated locally by running the pipeline.
 
 ---
 
