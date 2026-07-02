@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+
+# Models
+models/*.bin
+models/*.pt
+models/*.index
+models/*.npy
+
+# Output
+output/*.csv
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large dataset
+data/candidates.jsonl
+
+# Generated FAISS index
+models/candidate_index.faiss
+models/candidate_ids.json
